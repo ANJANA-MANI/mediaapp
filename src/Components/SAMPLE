@@ -1,0 +1,4 @@
+const removevideo=async(id)=>{
+  const response=await deleteAVideo(id);
+  setDeletevideostatus(true);
+}
